@@ -1,0 +1,39 @@
+.navbar-nav>li>a{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-right: 1px solid #e0e0e0;
+}
+
+html{
+	padding-top:80px;
+}
+
+img{
+	margin: 10px;
+}
+
+#entrar{
+	padding-top: 25px;
+	margin-right: 20px;
+}
+
+#playlist{
+	padding-top: 25px;
+	margin-left: 985px;
+}
+
+.inscricao{
+	margin: 20px;
+}
+
+.navbar{
+	height:80px !important
+}
+
+.navbar-nav>li>a:hover{
+	background: #C2C800  !important
+}
+
+#form-buscar{
+	padding:25px;
+}
