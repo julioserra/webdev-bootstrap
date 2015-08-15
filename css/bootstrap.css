@@ -4213,7 +4213,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 80px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4321,8 +4321,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 15px;
+  height: 80px;
+  padding: 30px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4343,9 +4343,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   padding: 9px 10px;
-  margin-top: 8px;
+  margin-top: 23px;
   margin-right: 15px;
-  margin-bottom: 8px;
+  margin-bottom: 23px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -4369,7 +4369,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 15px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4408,15 +4408,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 .navbar-form {
   padding: 10px 15px;
-  margin-top: 8px;
+  margin-top: 23px;
   margin-right: -15px;
-  margin-bottom: 8px;
+  margin-bottom: 23px;
   margin-left: -15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
@@ -4506,20 +4506,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 .navbar-btn.btn-sm {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .navbar-btn.btn-xs {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 29px;
+  margin-bottom: 29px;
 }
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   .navbar-text {
@@ -6796,5 +6796,36 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-right: 1px solid #e0e0e0;
+}
+html {
+  padding-top: 80px;
+}
+img {
+  margin: 10px;
+}
+#entrar {
+  padding-top: 25px;
+  margin-right: 20px;
+}
+#playlist {
+  padding-top: 25px;
+  margin-left: 985px;
+}
+.inscricao {
+  margin: 20px;
+}
+.navbar {
+  height: 80px !important;
+}
+.navbar-nav > li > a:hover {
+  background: #c2c800 !important;
+}
+#form-buscar {
+  padding: 25px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
